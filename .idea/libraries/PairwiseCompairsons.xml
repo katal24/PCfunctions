@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="PairwiseCompairsons">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../inżynierka/PairwiseComparisons/java/out/artifacts/PairwiseCompairsons_jar/PairwiseCompairsons.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
