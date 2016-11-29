@@ -9,6 +9,7 @@ public class Function{
     String name;
     double[] vector;
     double[] vectorB;
+    double[] triad;
     double[][] matrix;
     int row;
     int column;
@@ -17,6 +18,13 @@ public class Function{
     double valueToSet;
     int numberOfTriads;
 
+    public double[] getTriad() {
+        return triad;
+    }
+
+    public void setTriad(double[] triad) {
+        this.triad = triad;
+    }
 
     public double[] getVectorB() {
         return vectorB;
