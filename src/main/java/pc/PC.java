@@ -270,7 +270,16 @@ public class PC {
             }
 
         } catch(Exception e){
-            System.out.println(e);
+            String error = e.toString();
+            String myError;
+            System.out.println(error);
+            if(error.contains("main.out.pl.edu.agh.talaga.PcMatrixException")){
+               String[] temp = error.split(": ");
+                myError = temp[1];
+                response.error = myError;
+            } else {
+                response.error = "Bad parameters of function";
+            }
             response.setType("error");
         }
         System.out.println(response);
