@@ -261,7 +261,7 @@ public class PC {
 
                     break;
                 case "rankOrder":
-                    pc.rankOrder(fun.vector);
+                    response.values = pc.rankOrder(fun.vector);
                     response.setType("vector");
 
                     break;
