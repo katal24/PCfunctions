@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="PairwiseComparisons">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../inżynierka/PairwiseComparisons/java/out/artifacts/PairwiseComparisons_jar/PairwiseComparisons.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>
